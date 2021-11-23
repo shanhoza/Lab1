@@ -17,5 +17,7 @@ def pi(N):
     return round(pi, N)
 
 
+# test
+
 getcontext().prec = AC
 print(pi(N), '\n>> Точность:', AC, '\n>> Количество знаков:', N)
